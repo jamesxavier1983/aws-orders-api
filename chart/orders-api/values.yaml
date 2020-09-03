@@ -14,7 +14,7 @@ image:
   tag: 1
 service:
   name: orders-api-service
-  type: NodePort
+  type: LoadBalancer
   externalPort: 80
   internalPort: 8080
 ingress:
